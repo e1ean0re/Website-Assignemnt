@@ -1,0 +1,42 @@
+body {
+  background-image: url("Website assests/Background image.png");
+    position: relative;
+    background-repeat: no-repeat;
+    top: 10%;
+    width: 100%;
+    
+
+.button{
+    padding: 16px 16px;
+    transition-duration: 0.4s;
+}
+
+.buttonLeft {
+    background-image: url("Website%2520assests/navigation%20button.png");
+    position: relative;
+    top: 1500px;
+    left: 20px;
+}
+
+    .image-stack {
+  display: grid;
+  position: relative; 
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.image-stack__item--bottom {
+  grid-column: 3 / -1;
+  grid-row: 1;
+}
+
+.image-stack__item--top {
+  grid-row: 1;
+  grid-column: 1 / span 8;
+  padding-top: 20%; 
+  z-index: 1; 
+}
+
+img {
+  width: 100%;
+  display: block;
+}

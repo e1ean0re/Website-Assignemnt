@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<title>HTML Tutorial</title>
+<head> 
+        <link rel="stylesheet" href="style.css">
+    <style>
+        .openBook {
+            position: relative;
+            top: 0;
+            width: 100%; 
+            z-index: -1;
+        }
+        .pageEnd {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: -1;
+        }
+        .buttonLeft {
+            position: relative;
+            top: 50;
+            left: 20;
+                transition-duration: 0.4s;
+        }
+                .buttonLeft:hover {
+            position: relative;
+            top: 50;
+            left: 20;
+                transition-duration: 0.4s;
+                    background-image: url("Website assests/navigation button - hover.png");
+        }
+        .buttonRight {
+            position: relative;
+            top: 50;
+            right: 20;
+            transform: scaleX(-1);
+                transition-duration: 0.4s;
+        }
+                .buttonRight:hover {
+            position: relative;
+            top: 50;
+            right: 20;
+            transform: scaleX(-1);
+                transition-duration: 0.4s;
+                    background-image: url("Website assests/navigation button - hover.png");
+        }
+    </style>
+    </head>
+
+<body>
+    
+<div id="book" style="left: 0px; top:0px; position: absolute">
+    <img src="Website assests/open book.png" class="openBook" width="1530">
+        </div>
+    <div id="page end graphic" style="left: 10px; top: -30px; position: absolute;">
+    <img src="Website assests/end title.png" class="pageEnd" style="width:1900px;" >
+    </div>
+    <div id="Left button" style="left: 20px; top: 700px; position: absolute;">
+    <a href="page 6.html" ><img src="Website assests/navigation button.png" class="buttonLeft"></a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<title>HTML Tutorial</title>
+<head> 
+        <link rel="stylesheet" href="style.css">
+    <style>
+        .openBook {
+            position: relative;
+            top: 0;
+            width: 100%; 
+            z-index: -1;
+        }
+        .page1 {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: -1;
+        }
+        .buttonLeft {
+            position: relative;
+            top: 50;
+            left: 20;
+                transition-duration: 0.4s;
+        }
+                .buttonLeft:hover {
+            position: relative;
+            top: 50;
+            left: 20;
+                transition-duration: 0.4s;
+                    background-image: url("Website assests/navigation button - hover.png");
+        }
+        .buttonRight {
+            position: relative;
+            top: 50;
+            right: 20;
+            transform: scaleX(-1);
+                transition-duration: 0.4s;
+        }
+                .buttonRight:hover {
+            position: relative;
+            top: 50;
+            right: 20;
+            transform: scaleX(-1);
+                transition-duration: 0.4s;
+                    background-image: url("Website assests/navigation button - hover.png");
+        }
+        .paragraph {
+            position: absolute;
+            top: 50%;
+            width 100%;
+            text-align: center;
+            font-size: 35px;
+        }
+    </style>
+    </head>
+
+<body>
+    
+<div id="book" style="left: 0px; top:0px; position: absolute">
+    <img src="Website assests/open book.png" class="openBook" width="1530">
+        </div>
+    <div id="page 1 graphic" style="left: -10px; top:-350px; position: absolute;">
+    <img src="Website assests/page1.gif" class="page1" style="width:1900px;" >
+    </div>
+    <div id="Left button" style="left: 20px; top: 700px; position: absolute;">
+    <a href="index.html" ><img src="Website assests/navigation button.png" class="buttonLeft"></a>
+    </div>
+    <div id="right button" style="left: 1700px; top: 700px; position: absolute;">
+        <a href="page 2.html" ><img src="Website assests/navigation button.png" class="buttonRight"></a>
+    </div>
+    <div id="poem para 1" style="left: 550px; top: 600px; position:relative;">
+    <p class="paragraph"> From the Heart of this dark, evacuated campus<br>
+I can hear the library humming in the night,<br>
+an intense choir of authors muttering inside their books<br>
+along the unlit, alphabetical shelves,<br>
+Giovanni Pontano next to the Pope, Dumas next to his son,<br>
+each one stitched into his own private coat,<br>
+together forming a low, gigantic chord of language.</p>
+    </div>
+</body>
+</html>
